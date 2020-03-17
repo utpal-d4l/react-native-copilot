@@ -7,7 +7,7 @@ import {
   Dimensions,
 } from 'react-native';
 import Svg from 'react-native-svg';
-import { isPath } from 'is-svg-path';
+import isPath from 'is-svg-path';
 import AnimatedSvgPath from './AnimatedPath';
 
 import type { valueXY, svgMaskPath } from '../types';
